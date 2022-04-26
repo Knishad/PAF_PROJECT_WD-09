@@ -1,4 +1,0 @@
-String AccNo = paymentObject.get("AccNo").getAsString();
-		String PaymentDate = paymentObject.get("PaymentDate").getAsString();
-		Float Amount = paymentObject.get("Amount").getAsFloat();
-		String PaymentType = paymentObject.get("PaymentType").getAsString();
