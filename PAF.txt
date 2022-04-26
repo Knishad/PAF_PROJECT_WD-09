@@ -1,0 +1,11 @@
+String ComplaintId = complaintObject.get("ComplaintId").getAsString();
+		String UserId = complaintObject.get("UserId").getAsString();
+		String ComplaintDate = complaintObject.get("ComplaintDate").getAsString();
+		String Complaint = complaintObject.get("Complaint").getAsString();
+
+
+// Read the values from the JSON object
+		String ComplaintId = complaintObject.get("ComplaintId").getAsString();
+		String UserId = complaintObject.get("UserId").getAsString();
+		String ComplaintDate = complaintObject.get("ComplaintDate").getAsString();
+		String Complaint = complaintObject.get("Complaint").getAsString();
