@@ -1,0 +1,11 @@
+public String deletepayment(String paymentData) {
+
+		JsonObject paymentObject = new JsonParser().parse(paymentData).getAsJsonObject();
+
+		String AccNo = paymentObject.get("AccNo").getAsString();
+
+		PaymentService paymentObject2 = new PaymentService();
+		paymentObj.setAccNo(AccNo);
+
+		String output = paymentObject2.deletepayment(paymentObj);
+		return output;
